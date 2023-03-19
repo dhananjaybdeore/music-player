@@ -1,0 +1,78 @@
+import { v4 as uuidv4 } from "uuid";
+function chillhop() {
+  return [
+    {
+      name: "Sunset Drive",
+      artist: "Kreatev",
+      cover: "https://i.scdn.co/image/ab67616d0000b2733a80eb6971934aadd2f1c926",
+      id: uuidv4(),
+      active: true,
+      color: ["#963326", "#fcefc4"],
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=49373",
+    },
+    {
+      name: "Another Day",
+      artist: "illiterate, Mr Slipz",
+      cover: "https://i.scdn.co/image/ab67616d0000b273194aaa78f555a7ccac3e0abf",
+      id: uuidv4(),
+      active: false,
+      color: ["#21543c", "#eeecdf"],
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=48088",
+    },
+    {
+      name: "Come In And Stay",
+      artist: "Dotlights",
+      cover: "https://i.scdn.co/image/ab67616d0000b273f73cc2e03a580f5440dbc18a",
+      id: uuidv4(),
+      active: false,
+      color: ["#3c3f68", "#f8cfe7"],
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=45146",
+    },
+    {
+      name: "Mantilla",
+      artist: "Bao, Broken Transient",
+      cover: "https://i.scdn.co/image/ab67616d0000b2737d13bd78245db84e4fe8388b",
+      id: uuidv4(),
+      active: false,
+      color: ["#f6d3fe", "#4763bf"],
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=45147",
+    },
+    {
+      name: "Satisfaction",
+      artist: "Afroham",
+      cover: "https://i.scdn.co/image/ab67616d0000b273ec30ff6dcc05d2d989dd7806",
+      id: uuidv4(),
+      active: false,
+      color: ["#e371b9", "#1e2688"],
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=45150",
+    },
+    {
+      name: "Satisfaction",
+      artist: "Afroham",
+      cover: "https://i.scdn.co/image/ab67616d0000b273ec30ff6dcc05d2d989dd7806",
+      id: uuidv4(),
+      active: false,
+      color: ["#e371b9", "#1e2688"],
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=45150",
+    },
+    {
+      name: "Satisfaction",
+      artist: "Afroham",
+      cover: "https://i.scdn.co/image/ab67616d0000b273ec30ff6dcc05d2d989dd7806",
+      id: uuidv4(),
+      active: false,
+      color: ["#e371b9", "#1e2688"],
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=45150",
+    },
+    {
+      name: "Satisfaction",
+      artist: "Afroham",
+      cover: "https://i.scdn.co/image/ab67616d0000b273ec30ff6dcc05d2d989dd7806",
+      id: uuidv4(),
+      active: false,
+      color: ["#e371b9", "#1e2688"],
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=45150",
+    },
+  ];
+}
+export default chillhop;
